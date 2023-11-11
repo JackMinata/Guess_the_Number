@@ -3,15 +3,15 @@
 #include <time.h>
 
 void print_comment(int difference) {
-    if (difference >= 50) {
+    if (difference > 49) {
         printf("Wow, not even close!\n");
-    } else if (difference >= 30) {
+    } else if (difference > 29) {
         printf("You might want to try a bit harder.\n");
-    } else if (difference >= 15) {
+    } else if (difference > 14) {
         printf("Getting warmer, but still off.\n");
-    } else if (difference >= 5) {
+    } else if (difference > 5) {
         printf("Close, but no cigar.\n");
-    } else if (difference >= 1) {
+    } else if (difference > 0) {
         printf("Almost there!\n");
     }
 }
