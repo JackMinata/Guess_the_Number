@@ -1,10 +1,10 @@
-#include <stdio.h>
+o#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
 void print_comment(int difference) {
     if (difference > 49) {
-        printf("Wow, not even close!\n");
+        printf("Wow, not even close! You suck!\n");
     } else if (difference > 29) {
         printf("You might want to try a bit harder.\n");
     } else if (difference > 14) {
@@ -12,7 +12,7 @@ void print_comment(int difference) {
     } else if (difference > 5) {
         printf("Close, but no cigar.\n");
     } else if (difference > 0) {
-        printf("Almost there!\n");
+        printf("Almost there! Keep going!\n");
     }
 }
 
@@ -26,7 +26,7 @@ int main() {
     int user_guess;
     int attempts = 0;
 
-    printf("I've chosen a number between 1 and 100. Try to guess it!\n");
+    printf("Hello fucker!/nI've chosen a number between 1 and 100. Try to guess it!\n");
 
     while (1) {
         printf("Enter your guess: ");
