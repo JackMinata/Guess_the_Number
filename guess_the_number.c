@@ -34,7 +34,7 @@ int main() {
         attempts++;
 
         if (user_guess == number_to_guess) {
-            printf("Congratulations, you've found the number in %d attempts!\n", attempts);
+            printf("Congratulations, you took %d attempts to guess a number!\n", attempts);
             break;
         } else {
             print_comment(abs(user_guess - number_to_guess));
