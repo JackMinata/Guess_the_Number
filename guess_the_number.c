@@ -12,7 +12,7 @@ void print_comment(int difference) {
     } else if (difference > 5) {
         printf("Close, but no cigar.\n");
     } else if (difference > 0) {
-        printf("Almost there! Keep going!\n");
+        printf("Almost there! I'm coming! Keep going!\n");
     }
 }
 
