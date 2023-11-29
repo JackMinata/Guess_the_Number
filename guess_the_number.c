@@ -29,7 +29,7 @@ int main() {
     printf("Hello fucker!/nI've chosen a number between 1 and 100. Try to guess it!\n");
 
     while (1) {
-        printf("Enter your guess: ");
+        printf("Enter your guess loser: ");
         scanf("%d", &user_guess);
         attempts++;
 
