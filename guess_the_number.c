@@ -10,7 +10,7 @@ void print_comment(int difference) {
     } else if (difference > 14) {
         printf("Getting warmer, but still off.\n");
     } else if (difference > 5) {
-        printf("Close, but no cigar.\n");
+        printf("Close, but no cigar. What?\n");
     } else if (difference > 0) {
         printf("Almost there! I'm coming! Keep going!\n");
     }
